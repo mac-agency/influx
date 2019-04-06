@@ -157,6 +157,12 @@
   height: auto;
 }
 
+.komidashi {
+  font-size: 16px;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
 
 @media (max-width:320px){
 }
