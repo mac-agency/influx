@@ -56,9 +56,9 @@ hr {
 	box-shadow: none;
 }
 a:hover, a:focus {
-	color: #111;
-	text-decoration: none;
-	outline: none;
+  color: #111;
+  text-decoration: none;
+  outline: none;
 }
 .center h2 {
 	font-size: 36px;
