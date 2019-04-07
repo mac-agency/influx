@@ -163,6 +163,25 @@
   font-weight: bold;
 }
 
+body > section {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.kasou_title {
+  padding-top: 30px;
+  font-size: 21px;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.sub_title {
+  font-size: 19px;
+  line-height: 1.4em;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
 
 @media (max-width:320px){
 }
