@@ -182,6 +182,11 @@ body > section {
   padding-bottom: 30px;
 }
 
+.section_padding {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 
 @media (max-width:320px){
 }
