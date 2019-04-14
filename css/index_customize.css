@@ -187,6 +187,17 @@ body > section {
   padding-bottom: 30px;
 }
 
+.hero_contact {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-image: url(../about_us/images/about_us_top.jpg);
+  -webkit-background-size: cover;
+  padding: 50px 0;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: auto;
+}
+
 
 @media (max-width:320px){
 }

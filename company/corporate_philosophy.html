@@ -1,26 +1,15 @@
 <!DOCTYPE html>
-<html lang="ja"><!-- InstanceBegin template="/Templates/index_base.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="zxx"><!-- InstanceBegin template="/Templates/index_base.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-<meta charset="euc-jp">
+<!-- InstanceBeginEditable name="charset" -->
+  <meta charset="utf-8">
+  <!-- InstanceEndEditable -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>���Ҥδ����ǰ�ó�����ҡ�����������</title>
-<meta name="description" content="����ʸ������ޤ���">
-<meta name="keywords" content="������ɤ�����ޤ���">  
-<style type="text/css">
-.jumbotron.about_us {
-  background-image: url(../images/top_slide2.jpg);
-  background-position: 0% 0%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  padding-top: 50px;
-  margin-top: 50px;
-  margin-bottom: 0px;
-  position: static;
-  padding-bottom: 50px;
-}
-</style>
+<title>当社の企業理念｜株式会社○○○○○○</title>
+<meta name="description" content="説明文が入ります。">
+<meta name="keywords" content="キーワードが入ります。">  
+
 <!-- InstanceEndEditable -->
 
 <!-- core CSS -->
@@ -36,7 +25,7 @@
  $(function() {
     var TopBtn = $('#PageTopBtn');    
     TopBtn.hide();
-    // ������������֤�100�ǥܥ����ɽ��
+    // スクロール位置が100でボタンを表示
     $(window).scroll(function() {
         if ($(this).scrollTop() > 100) {
             TopBtn.fadeIn();
@@ -45,7 +34,7 @@
             TopBtn.fadeOut();
         }
     });
-    // �ܥ���򲡲�����ȥȥåפذ�ư
+    // ボタンを押下するとトップへ移動
     TopBtn.click(function() {
         $('body,html').animate({
             scrollTop: 0
@@ -65,9 +54,10 @@
 <!--/head-->
 
 <body class="homepage">
-  <p id="PageTopBtn"><a href="#">��Page Top</a></p>
+ 
+<p id="PageTopBtn"><a href="#">▲Page Top</a></p>
 <header id="header">
-  <nav class="navbar navbar-inverse navbar-fixed-top" role="banner">
+  <nav class="navbar navbar-inverse navbar-fixed-top" >
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
@@ -75,23 +65,23 @@
       <div class="collapse navbar-collapse navbar-right">
         <ul class="nav navbar-nav">
           <li class="active"><a href="../index_base.html">Home</a></li>
-          <li><a href="../about_us/index.html">���ҤˤĤ���</a></li>
+          <li><a href="../about_us/index.html">当社について</a></li>
           
-         <!-- <li ><a href="../services.html">��Ⱦ���</a></li>-->
-          <li class="dropdown"><a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">��Ⱦ���<span class="caret"></span></a>
+         <!-- <li ><a href="../services.html">企業情報</a></li>-->
+          <li class="dropdown"><a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">企業情報<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="corporate_philosophy.html">�����ǰ</a></li>
-            <li><a href="history.html">���</a></li>
-            <li><a href="policy.html">�ݥꥷ��</a></li>
+            <li><a href="corporate_philosophy.html">企業理念</a></li>
+            <li><a href="history.html">沿革</a></li>
+            <li><a href="policy.html">ポリシー</a></li>
             <li class="divider"></li>
-            <li><a href="../recruit/index.html">���ѤˤĤ���</a></li>
+            <li><a href="../recruit/index.html">採用について</a></li>
             <li class="divider"></li>
-            <li><a href="accsess.html">��������</a></li>
+            <li><a href="accsess.html">アクセス</a></li>
           </ul>
         </li>
-          <li><a href="../buisiness/index.html">���Ҥλ��ȤˤĤ���</a></li>
-          <li><a href="../recruit/index.html">���Ѿ���</a></li>
-          <li><a href="../contact/index.html">����礻</a></li>
+          <li><a href="../buisiness/index.html">当社の事業について</a></li>
+          <li><a href="../recruit/index.html">採用情報</a></li>
+          <li><a href="../contact/index.html">お問合せ</a></li>
         </ul>
       </div>
     </div>
@@ -102,39 +92,39 @@
 </header>
 <!--/header--><!-- InstanceBeginEditable name="top_slide" -->
 <section id="top">
-  <!--���� �����ܥȥ��� -->
+  <!--　▼ ジャンボトロン　 -->
   <div class="jumbotron about_us">
       <div class="container">
-        <h1 class="kasou_title">���Ҥδ����ǰ</h1>
-        <p class="sub_title">���֥ƥ����ȥ��֥ƥ����ȥ��֥ƥ����ȥ��֥ƥ����ȥ��֥ƥ����ȥ��֥ƥ�����</p>
-        <!--<a class="btn btn-primary btn-lg" href="#" role="button">Learn more ��</a>-->
+        <h1 class="kasou_title">当社の企業理念</h1>
+        <p class="sub_title">サブテキストサブテキストサブテキストサブテキストサブテキストサブテキスト</p>
+        <!--<a class="btn btn-primary btn-lg" href="#" role="button">Learn more 》</a>-->
       </div>
     </div>
-<!--���� �����ܥȥ��� -->
+<!--　▲ ジャンボトロン　 -->
 </section>
 <!-- InstanceEndEditable --><!--/#main-slider-->
 <div class="color-border"> </div>
 <!-- InstanceBeginEditable name="main_content" -->
 <section id="news">
   <div class="container">
-    <h2 class="midashi">���Τ餻</h2>
+    <h2 class="midashi">お知らせ</h2>
     <table class="table">
       <tbody>
         <tr>
           <th scope="col">2019.4.01</th>
-          <td>�ۡ���ڡ����򹹿��������ޤ�����</td>
+          <td>ホームページを更新いたしました。</td>
         </tr>
         <tr>
           <th scope="col">2019.4.01</th>
-          <td>�ۡ���ڡ����򹹿��������ޤ�����</td>
+          <td>ホームページを更新いたしました。</td>
         </tr>
         <tr>
           <th scope="col">2019.4.01</th>
-          <td>�ۡ���ڡ����򹹿��������ޤ�����</td>
+          <td>ホームページを更新いたしました。</td>
         </tr>
         <tr>
           <th scope="col">2019.4.01</th>
-          <td>�ۡ���ڡ����򹹿��������ޤ�����</td>
+          <td>ホームページを更新いたしました。</td>
         </tr>
       </tbody>
     </table>
@@ -142,46 +132,46 @@
 </section>
 <section id="greeting">
   <div class="container">
-    <h2 class="midashi">����������</h2>
+    <h2 class="midashi">ごあいさつ</h2>
     <div class="row">
-      <div class="col-sm-4"><img src="../images/president.jpg" class="img-responsive retina" alt="������Ϻ��Ĺ"></div>
+      <div class="col-sm-4"><img src="../images/president.jpg" class="img-responsive retina" alt="山田太郎社長"></div>
       <div class="col-sm-8">
-        <h3 class="komidashi">�������ڤ곫���Ϥ�</h3>
-        <p class="kaisetu_read">���ܪ������ή����롣�Ҥ�Ư���гѤ�Ω�ġ��ɤ��رۤ��Ƥ⽻�ߤˤ����ȸ�ä�������������ơ��褬����롣�Ȥ����˿ͤ����Ͻ��ߤˤ��������Ϥ��̤��е������ 
-          �Ȥ����˿ͤ����Ͻ��ߤˤ�����
-          �ɤ��رۤ��Ƥ⽻�ߤˤ����ȸ�ä�������������ơ��褬����롣���Ϥ��̤��е��������ϩ���Ф�ʤ��顢�����ͤ������Ҥ�Ư���гѤ�Ω�ġ��ɤ��رۤ��Ƥ⽻�ߤˤ����ȸ�ä�������������ơ��褬����롣�Ҥ�Ư���гѤ�Ω�ġ� 
-          �Ȥ����˿ͤ����Ͻ��ߤˤ�������ϩ���Ф�ʤ��顢�����ͤ������Ȥ����˿ͤ����Ͻ��ߤˤ��������ߤˤ������⤸��ȡ��¤���ذ����ۤ������ʤ롣���ߤˤ������⤸��ȡ��¤���ذ����ۤ������ʤ롣���ܪ������ή����롣 
-          ���Ϥ��̤��е���������ߤˤ������⤸��ȡ��¤���ذ����ۤ������ʤ롣���Ϥ��̤��е������ 
-          �Ȥ����˿ͤ����Ͻ��ߤˤ������Ȥ����˿ͤ����Ͻ��ߤˤ��������ߤˤ������⤸��ȡ��¤���ذ����ۤ������ʤ롣��ϩ���Ф�ʤ��顢�����ͤ����� </p>
-        <h4 class="greeting_name">��ɽ�����򡡻�����Ϻ</h4>
+        <h3 class="komidashi">明日と切り開く力を</h3>
+        <p class="kaisetu_read">情に棹させば流される。智に働けば角が立つ。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。とかくに人の世は住みにくい。意地を通せば窮屈だ。 
+          とかくに人の世は住みにくい。
+          どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。山路を登りながら、こう考えた。智に働けば角が立つ。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。智に働けば角が立つ。 
+          とかくに人の世は住みにくい。山路を登りながら、こう考えた。とかくに人の世は住みにくい。住みにくさが高じると、安い所へ引き越したくなる。住みにくさが高じると、安い所へ引き越したくなる。情に棹させば流される。 
+          意地を通せば窮屈だ。住みにくさが高じると、安い所へ引き越したくなる。意地を通せば窮屈だ。 
+          とかくに人の世は住みにくい。とかくに人の世は住みにくい。住みにくさが高じると、安い所へ引き越したくなる。山路を登りながら、こう考えた。 </p>
+        <h4 class="greeting_name">代表取締役　山田太郎</h4>
       </div>
     </div>
   </div>
 </section>
 <section id="about">
   <div class="container">
-    <h2 class="midashi">��������</h2>
+    <h2 class="midashi">事業内容</h2>
     <div class="row">
       <div class="col-sm-4 animatedParent">
         <div class="text-center">
-          <h3 class="jigyou_title">��������</h3>
-          <img src="../images/business1.jpg" class="img-responsive retina" alt="��������">
+          <h3 class="jigyou_title">〇〇事業</h3>
+          <img src="../images/business1.jpg" class="img-responsive retina" alt="〇〇事業">
           <p> Ne mundi fabulas corrumpit vim, nulla vivendum conceptam eu nam. Ius ex principes complectitur, ex quo duis suscipit. Ius fastidii reprimique no. Sadipscing appellantur pri ad. Oratio moderatius definitiones cum ex, mea ne brute vivendum percipitur. </p>
-          <a href="#service" class="btn btn-skin btn-scroll btn-danger">�ܤ�������</a></div>
+          <a href="#service" class="btn btn-skin btn-scroll btn-danger">詳しく見る</a></div>
       </div>
       <div class="col-sm-4 animatedParent bottom_margin30">
         <div class="text-center">
-          <h3 class="jigyou_title">��������</h3>
-          <img src="../images/business2.jpg" class="img-responsive retina" alt="��������">
+          <h3 class="jigyou_title">〇〇事業</h3>
+          <img src="../images/business2.jpg" class="img-responsive retina" alt="〇〇事業">
           <p> Ne mundi fabulas corrumpit vim, nulla vivendum conceptam eu nam. Ius ex principes complectitur, ex quo duis suscipit. Ius fastidii reprimique no. Sadipscing appellantur pri ad. Oratio moderatius definitiones cum ex, mea ne brute vivendum percipitur. </p>
-          <a href="#service" class="btn btn-skin btn-scroll btn-danger">�ܤ�������</a></div>
+          <a href="#service" class="btn btn-skin btn-scroll btn-danger">詳しく見る</a></div>
       </div>
       <div class="col-sm-4 animatedParent bottom_margin30">
         <div class="text-center">
-          <h3 class="jigyou_title">��������</h3>
-          <img src="../images/business3.jpg" class="img-responsive retina" alt="��������">
+          <h3 class="jigyou_title">〇〇事業</h3>
+          <img src="../images/business3.jpg" class="img-responsive retina" alt="〇〇事業">
           <p> Ne mundi fabulas corrumpit vim, nulla vivendum conceptam eu nam. Ius ex principes complectitur, ex quo duis suscipit. Ius fastidii reprimique no. Sadipscing appellantur pri ad. Oratio moderatius definitiones cum ex, mea ne brute vivendum percipitur. </p>
-          <a href="#service" class="btn btn-skin btn-scroll btn-danger">�ܤ�������</a></div>
+          <a href="#service" class="btn btn-skin btn-scroll btn-danger">詳しく見る</a></div>
       </div>
     </div>
   </div>
@@ -311,17 +301,17 @@
           <div class="col-sm-4">
             <blockquote>
               <p class="clients-words">Morbi eget enim nisi. In venenatis porta est ut molestie nulla facilisi. Aliquam vehicula efficitur lorem eget eleifend.</p>
-              <span class="clients-name">- John Doe, Company</span> <img class="img-circle img-thumbnail" src="../images/testimonials/man1.jpg" alt="��������"></blockquote>
+              <span class="clients-name">- John Doe, Company</span> <img class="img-circle img-thumbnail" src="../images/testimonials/man1.jpg" alt="画像説明"></blockquote>
           </div>
           <div class="col-sm-4">
             <blockquote>
               <p class="clients-words">Maecenas tincidunt venenatis tempus. Nulla tristique euismod urna at ullamcorper.</p>
-              <span class="clients-name">- Jane Doe, Company</span> <img class="img-circle img-thumbnail" src="../images/testimonials/woman1.jpg" alt="��������"></blockquote>
+              <span class="clients-name">- Jane Doe, Company</span> <img class="img-circle img-thumbnail" src="../images/testimonials/woman1.jpg" alt="画像説明"></blockquote>
           </div>
           <div class="col-sm-4">
             <blockquote>
               <p  class="clients-words">Aliquam euismod nunc id eros sollicitudin interdum. Integer eget sem nec nulla dictum dictum.</p>
-              <span class="clients-name">- Brian Smith, Company</span> <img class="img-circle img-thumbnail" src="../images/testimonials/man1.jpg" alt="��������"></blockquote>
+              <span class="clients-name">- Brian Smith, Company</span> <img class="img-circle img-thumbnail" src="../images/testimonials/man1.jpg" alt="画像説明"></blockquote>
           </div>
         </div>
         <!--/.row-->
@@ -418,11 +408,11 @@
     </div>
     <div class="partners">
       <ul>
-        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner1.png" alt="��������"></a></li>
-        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner2.png" alt="��������"></a></li>
-        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner3.png" alt="��������"></a></li>
-        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner4.png" alt="��������"></a></li>
-        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner5.png" alt="��������"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner1.png" alt="画像説明"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner2.png" alt="画像説明"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner3.png" alt="画像説明"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner4.png" alt="画像説明"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner5.png" alt="画像説明"></a></li>
       </ul>
     </div>
   </div>
@@ -461,7 +451,7 @@
 <script src="../js/jquery.prettyPhoto.js"></script> 
 <script src="../js/jquery.isotope.min.js"></script> 
 <script src="../js/main.js"></script>
-<script type="text/javascript" src="../js/retina.js"></script>
+<script src="../js/retina.js"></script>
   
 </body>
 <!-- InstanceEnd --></html>

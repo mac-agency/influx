@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="ja"><!-- InstanceBegin template="/Templates/index_base.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="zxx"><!-- InstanceBegin template="/Templates/index_base.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-<meta charset="euc-jp">
+<!-- InstanceBeginEditable name="charset" -->
+  <meta charset="utf-8">
+  <!-- InstanceEndEditable -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>Influx</title>
-<meta name="description" content="����ʸ������ޤ���">
-<meta name="keywords" content="������ɤ�����ޤ���">  
+<meta name="description" content="説明文が入ります。">
+<meta name="keywords" content="キーワードが入ります。">  
 <!-- InstanceEndEditable -->
 
 <!-- core CSS -->
@@ -22,7 +24,7 @@
  $(function() {
     var TopBtn = $('#PageTopBtn');    
     TopBtn.hide();
-    // ������������֤�100�ǥܥ����ɽ��
+    // スクロール位置が100でボタンを表示
     $(window).scroll(function() {
         if ($(this).scrollTop() > 100) {
             TopBtn.fadeIn();
@@ -31,7 +33,7 @@
             TopBtn.fadeOut();
         }
     });
-    // �ܥ���򲡲�����ȥȥåפذ�ư
+    // ボタンを押下するとトップへ移動
     TopBtn.click(function() {
         $('body,html').animate({
             scrollTop: 0
@@ -51,9 +53,10 @@
 <!--/head-->
 
 <body class="homepage">
-  <p id="PageTopBtn"><a href="#">��Page Top</a></p>
+ 
+<p id="PageTopBtn"><a href="#">▲Page Top</a></p>
 <header id="header">
-  <nav class="navbar navbar-inverse navbar-fixed-top" role="banner">
+  <nav class="navbar navbar-inverse navbar-fixed-top" >
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
@@ -61,23 +64,23 @@
       <div class="collapse navbar-collapse navbar-right">
         <ul class="nav navbar-nav">
           <li class="active"><a href="index_base.html">Home</a></li>
-          <li><a href="about_us/index.html">���ҤˤĤ���</a></li>
+          <li><a href="about_us/index.html">当社について</a></li>
           
-         <!-- <li ><a href="../services.html">��Ⱦ���</a></li>-->
-          <li class="dropdown"><a href="company/index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">��Ⱦ���<span class="caret"></span></a>
+         <!-- <li ><a href="../services.html">企業情報</a></li>-->
+          <li class="dropdown"><a href="company/index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">企業情報<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="company/corporate_philosophy.html">�����ǰ</a></li>
-            <li><a href="company/history.html">���</a></li>
-            <li><a href="company/policy.html">�ݥꥷ��</a></li>
+            <li><a href="company/corporate_philosophy.html">企業理念</a></li>
+            <li><a href="company/history.html">沿革</a></li>
+            <li><a href="company/policy.html">ポリシー</a></li>
             <li class="divider"></li>
-            <li><a href="recruit/index.html">���ѤˤĤ���</a></li>
+            <li><a href="recruit/index.html">採用について</a></li>
             <li class="divider"></li>
-            <li><a href="company/accsess.html">��������</a></li>
+            <li><a href="company/accsess.html">アクセス</a></li>
           </ul>
         </li>
-          <li><a href="buisiness/index.html">���Ҥλ��ȤˤĤ���</a></li>
-          <li><a href="recruit/index.html">���Ѿ���</a></li>
-          <li><a href="contact/index.html">����礻</a></li>
+          <li><a href="buisiness/index.html">当社の事業について</a></li>
+          <li><a href="recruit/index.html">採用情報</a></li>
+          <li><a href="contact/index.html">お問合せ</a></li>
         </ul>
       </div>
     </div>
@@ -100,11 +103,11 @@
           <div class="row slide-margin">
             <div class="col-sm-12">
               <div class="carousel-content">
-                <h1>Welcome to ����web site
+                <h1>Welcome to ○○web site
                   <!--<span class="logo"><i class="fa fa-bolt"></i> Influx</span>-->
                 </h1>
-                <h2>��ã��̤�����Ф���ȤǤ���</h2>
-                <a class="btn-slide" href="about-us.html">�ܤ�������</a></div>
+                <h2>私達は未来を作り出す企業です。</h2>
+                <a class="btn-slide" href="about-us.html">詳しく見る</a></div>
             </div>
           </div>
         </div>
@@ -115,9 +118,9 @@
           <div class="row slide-margin">
             <div class="col-sm-12">
               <div class="carousel-content">
-                <h1>̤��򸫿������Τ��ʴ�ȷб�</h1>
-                <h2>�Ұ��ߤ�ʤ���ݤȤʤ��ܻؤ���ɸ�˸����ä�ʤ������</h2>
-                <a class="btn-slide" href="about-us.html">�ܤ�������</a></div>
+                <h1>未来を見据えた確かな企業経営</h1>
+                <h2>社員みんなが一丸となり目指す目標に向かって邁進する社風</h2>
+                <a class="btn-slide" href="about-us.html">詳しく見る</a></div>
             </div>
           </div>
         </div>
@@ -128,9 +131,9 @@
           <div class="row slide-margin">
             <div class="col-sm-12">
               <div class="carousel-content">
-                <h1>��ͳ��ȯ�ۤ���Ȥ���Ĺ��٤��Ƥ��ޤ�</h1>
-                <h2>�����ȯ�ۤȴ�����ǰ�ˤȤ���ʤ��ͤ�������ο�������Τ����߽Ф��Ƥ��ޤ���</h2>
-                <a class="btn-slide" href="about-us.html">�ܤ�������</a></div>
+                <h1>自由な発想が企業の成長を支えています</h1>
+                <h2>柔軟な発想と既成概念にとらわれない考えが次代の新しいものを生み出しています。</h2>
+                <a class="btn-slide" href="about-us.html">詳しく見る</a></div>
             </div>
           </div>
         </div>
@@ -146,24 +149,24 @@
 <!-- InstanceBeginEditable name="main_content" -->
 <section id="news">
   <div class="container">
-    <h2 class="midashi">���Τ餻</h2>
+    <h2 class="midashi">お知らせ</h2>
     <table class="table">
       <tbody>
         <tr>
           <th scope="col">2019.4.01</th>
-          <td>�ۡ���ڡ����򹹿��������ޤ�����</td>
+          <td>ホームページを更新いたしました。</td>
         </tr>
         <tr>
           <th scope="col">2019.4.01</th>
-          <td>�ۡ���ڡ����򹹿��������ޤ�����</td>
+          <td>ホームページを更新いたしました。</td>
         </tr>
         <tr>
           <th scope="col">2019.4.01</th>
-          <td>�ۡ���ڡ����򹹿��������ޤ�����</td>
+          <td>ホームページを更新いたしました。</td>
         </tr>
         <tr>
           <th scope="col">2019.4.01</th>
-          <td>�ۡ���ڡ����򹹿��������ޤ�����</td>
+          <td>ホームページを更新いたしました。</td>
         </tr>
       </tbody>
     </table>
@@ -171,46 +174,46 @@
 </section>
 <section id="greeting">
   <div class="container">
-    <h2 class="midashi">����������</h2>
+    <h2 class="midashi">ごあいさつ</h2>
     <div class="row">
-      <div class="col-sm-4"><img src="images/president.jpg" class="img-responsive retina" alt="������Ϻ��Ĺ"></div>
+      <div class="col-sm-4"><img src="images/president.jpg" class="img-responsive retina" alt="山田太郎社長"></div>
       <div class="col-sm-8">
-        <h3 class="komidashi">�������ڤ곫���Ϥ�</h3>
-        <p class="kaisetu_read">���ܪ������ή����롣�Ҥ�Ư���гѤ�Ω�ġ��ɤ��رۤ��Ƥ⽻�ߤˤ����ȸ�ä�������������ơ��褬����롣�Ȥ����˿ͤ����Ͻ��ߤˤ��������Ϥ��̤��е������ 
-          �Ȥ����˿ͤ����Ͻ��ߤˤ�����
-          �ɤ��رۤ��Ƥ⽻�ߤˤ����ȸ�ä�������������ơ��褬����롣���Ϥ��̤��е��������ϩ���Ф�ʤ��顢�����ͤ������Ҥ�Ư���гѤ�Ω�ġ��ɤ��رۤ��Ƥ⽻�ߤˤ����ȸ�ä�������������ơ��褬����롣�Ҥ�Ư���гѤ�Ω�ġ� 
-          �Ȥ����˿ͤ����Ͻ��ߤˤ�������ϩ���Ф�ʤ��顢�����ͤ������Ȥ����˿ͤ����Ͻ��ߤˤ��������ߤˤ������⤸��ȡ��¤���ذ����ۤ������ʤ롣���ߤˤ������⤸��ȡ��¤���ذ����ۤ������ʤ롣���ܪ������ή����롣 
-          ���Ϥ��̤��е���������ߤˤ������⤸��ȡ��¤���ذ����ۤ������ʤ롣���Ϥ��̤��е������ 
-          �Ȥ����˿ͤ����Ͻ��ߤˤ������Ȥ����˿ͤ����Ͻ��ߤˤ��������ߤˤ������⤸��ȡ��¤���ذ����ۤ������ʤ롣��ϩ���Ф�ʤ��顢�����ͤ����� </p>
-        <h4 class="greeting_name">��ɽ�����򡡻�����Ϻ</h4>
+        <h3 class="komidashi">明日と切り開く力を</h3>
+        <p class="kaisetu_read">情に棹させば流される。智に働けば角が立つ。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。とかくに人の世は住みにくい。意地を通せば窮屈だ。 
+          とかくに人の世は住みにくい。
+          どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。山路を登りながら、こう考えた。智に働けば角が立つ。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。智に働けば角が立つ。 
+          とかくに人の世は住みにくい。山路を登りながら、こう考えた。とかくに人の世は住みにくい。住みにくさが高じると、安い所へ引き越したくなる。住みにくさが高じると、安い所へ引き越したくなる。情に棹させば流される。 
+          意地を通せば窮屈だ。住みにくさが高じると、安い所へ引き越したくなる。意地を通せば窮屈だ。 
+          とかくに人の世は住みにくい。とかくに人の世は住みにくい。住みにくさが高じると、安い所へ引き越したくなる。山路を登りながら、こう考えた。 </p>
+        <h4 class="greeting_name">代表取締役　山田太郎</h4>
       </div>
     </div>
   </div>
 </section>
 <section id="about">
   <div class="container">
-    <h2 class="midashi">��������</h2>
+    <h2 class="midashi">事業内容</h2>
     <div class="row">
       <div class="col-sm-4 animatedParent">
         <div class="text-center">
-          <h3 class="jigyou_title">��������</h3>
-          <img src="images/business1.jpg" class="img-responsive retina" alt="��������">
+          <h3 class="jigyou_title">〇〇事業</h3>
+          <img src="images/business1.jpg" class="img-responsive retina" alt="〇〇事業">
           <p> Ne mundi fabulas corrumpit vim, nulla vivendum conceptam eu nam. Ius ex principes complectitur, ex quo duis suscipit. Ius fastidii reprimique no. Sadipscing appellantur pri ad. Oratio moderatius definitiones cum ex, mea ne brute vivendum percipitur. </p>
-          <a href="#service" class="btn btn-skin btn-scroll btn-danger">�ܤ�������</a></div>
+          <a href="#service" class="btn btn-skin btn-scroll btn-danger">詳しく見る</a></div>
       </div>
       <div class="col-sm-4 animatedParent bottom_margin30">
         <div class="text-center">
-          <h3 class="jigyou_title">��������</h3>
-          <img src="images/business2.jpg" class="img-responsive retina" alt="��������">
+          <h3 class="jigyou_title">〇〇事業</h3>
+          <img src="images/business2.jpg" class="img-responsive retina" alt="〇〇事業">
           <p> Ne mundi fabulas corrumpit vim, nulla vivendum conceptam eu nam. Ius ex principes complectitur, ex quo duis suscipit. Ius fastidii reprimique no. Sadipscing appellantur pri ad. Oratio moderatius definitiones cum ex, mea ne brute vivendum percipitur. </p>
-          <a href="#service" class="btn btn-skin btn-scroll btn-danger">�ܤ�������</a></div>
+          <a href="#service" class="btn btn-skin btn-scroll btn-danger">詳しく見る</a></div>
       </div>
       <div class="col-sm-4 animatedParent bottom_margin30">
         <div class="text-center">
-          <h3 class="jigyou_title">��������</h3>
-          <img src="images/business3.jpg" class="img-responsive retina" alt="��������">
+          <h3 class="jigyou_title">〇〇事業</h3>
+          <img src="images/business3.jpg" class="img-responsive retina" alt="〇〇事業">
           <p> Ne mundi fabulas corrumpit vim, nulla vivendum conceptam eu nam. Ius ex principes complectitur, ex quo duis suscipit. Ius fastidii reprimique no. Sadipscing appellantur pri ad. Oratio moderatius definitiones cum ex, mea ne brute vivendum percipitur. </p>
-          <a href="#service" class="btn btn-skin btn-scroll btn-danger">�ܤ�������</a></div>
+          <a href="#service" class="btn btn-skin btn-scroll btn-danger">詳しく見る</a></div>
       </div>
     </div>
   </div>
@@ -340,17 +343,17 @@
           <div class="col-sm-4">
             <blockquote>
               <p class="clients-words">Morbi eget enim nisi. In venenatis porta est ut molestie nulla facilisi. Aliquam vehicula efficitur lorem eget eleifend.</p>
-              <span class="clients-name">- John Doe, Company</span> <img class="img-circle img-thumbnail" src="images/testimonials/man1.jpg" alt="��������"></blockquote>
+              <span class="clients-name">- John Doe, Company</span> <img class="img-circle img-thumbnail" src="images/testimonials/man1.jpg" alt="画像説明"></blockquote>
           </div>
           <div class="col-sm-4">
             <blockquote>
               <p class="clients-words">Maecenas tincidunt venenatis tempus. Nulla tristique euismod urna at ullamcorper.</p>
-              <span class="clients-name">- Jane Doe, Company</span> <img class="img-circle img-thumbnail" src="images/testimonials/woman1.jpg" alt="��������"></blockquote>
+              <span class="clients-name">- Jane Doe, Company</span> <img class="img-circle img-thumbnail" src="images/testimonials/woman1.jpg" alt="画像説明"></blockquote>
           </div>
           <div class="col-sm-4">
             <blockquote>
               <p  class="clients-words">Aliquam euismod nunc id eros sollicitudin interdum. Integer eget sem nec nulla dictum dictum.</p>
-              <span class="clients-name">- Brian Smith, Company</span> <img class="img-circle img-thumbnail" src="images/testimonials/man1.jpg" alt="��������"></blockquote>
+              <span class="clients-name">- Brian Smith, Company</span> <img class="img-circle img-thumbnail" src="images/testimonials/man1.jpg" alt="画像説明"></blockquote>
           </div>
         </div>
         <!--/.row-->
@@ -447,11 +450,11 @@
     </div>
     <div class="partners">
       <ul>
-        <li> <a href="#"><img class="img-responsive" src="images/partners/partner1.png" alt="��������"></a></li>
-        <li> <a href="#"><img class="img-responsive" src="images/partners/partner2.png" alt="��������"></a></li>
-        <li> <a href="#"><img class="img-responsive" src="images/partners/partner3.png" alt="��������"></a></li>
-        <li> <a href="#"><img class="img-responsive" src="images/partners/partner4.png" alt="��������"></a></li>
-        <li> <a href="#"><img class="img-responsive" src="images/partners/partner5.png" alt="��������"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="images/partners/partner1.png" alt="画像説明"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="images/partners/partner2.png" alt="画像説明"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="images/partners/partner3.png" alt="画像説明"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="images/partners/partner4.png" alt="画像説明"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="images/partners/partner5.png" alt="画像説明"></a></li>
       </ul>
     </div>
   </div>
@@ -490,7 +493,7 @@
 <script src="js/jquery.prettyPhoto.js"></script> 
 <script src="js/jquery.isotope.min.js"></script> 
 <script src="js/main.js"></script>
-<script type="text/javascript" src="js/retina.js"></script>
+<script src="js/retina.js"></script>
   
 </body>
 <!-- InstanceEnd --></html>

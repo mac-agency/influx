@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="zxx">
 <head>
-<meta charset="euc-jp">
+<!-- TemplateBeginEditable name="charset" -->
+  <meta charset="utf-8">
+  <!-- TemplateEndEditable -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- TemplateBeginEditable name="doctitle" -->
 <title>Influx</title>
-<meta name="description" content="ÀâÌÀÊ¸¤¬Æş¤ê¤Ş¤¹¡£">
-<meta name="keywords" content="¥­¡¼¥ï¡¼¥É¤¬Æş¤ê¤Ş¤¹¡£">  
+<meta name="description" content="èª¬æ˜æ–‡ãŒå…¥ã‚Šã¾ã™ã€‚">
+<meta name="keywords" content="ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ãŒå…¥ã‚Šã¾ã™ã€‚">  
 <!-- TemplateEndEditable -->
 
 <!-- core CSS -->
@@ -22,7 +24,7 @@
  $(function() {
     var TopBtn = $('#PageTopBtn');    
     TopBtn.hide();
-    // ¥¹¥¯¥í¡¼¥ë°ÌÃÖ¤¬100¤Ç¥Ü¥¿¥ó¤òÉ½¼¨
+    // ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ä½ç½®ãŒ100ã§ãƒœã‚¿ãƒ³ã‚’è¡¨ç¤º
     $(window).scroll(function() {
         if ($(this).scrollTop() > 100) {
             TopBtn.fadeIn();
@@ -31,7 +33,7 @@
             TopBtn.fadeOut();
         }
     });
-    // ¥Ü¥¿¥ó¤ò²¡²¼¤¹¤ë¤È¥È¥Ã¥×¤Ø°ÜÆ°
+    // ãƒœã‚¿ãƒ³ã‚’æŠ¼ä¸‹ã™ã‚‹ã¨ãƒˆãƒƒãƒ—ã¸ç§»å‹•
     TopBtn.click(function() {
         $('body,html').animate({
             scrollTop: 0
@@ -51,9 +53,10 @@
 <!--/head-->
 
 <body class="homepage">
-  <p id="PageTopBtn"><a href="#">¢¥Page Top</a></p>
+ 
+<p id="PageTopBtn"><a href="#">â–²Page Top</a></p>
 <header id="header">
-  <nav class="navbar navbar-inverse navbar-fixed-top" role="banner">
+  <nav class="navbar navbar-inverse navbar-fixed-top" >
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
@@ -61,23 +64,23 @@
       <div class="collapse navbar-collapse navbar-right">
         <ul class="nav navbar-nav">
           <li class="active"><a href="../index_base.html">Home</a></li>
-          <li><a href="../about_us/index.html">Åö¼Ò¤Ë¤Ä¤¤¤Æ</a></li>
+          <li><a href="../about_us/index.html">å½“ç¤¾ã«ã¤ã„ã¦</a></li>
           
-         <!-- <li ><a href="../services.html">´ë¶È¾ğÊó</a></li>-->
-          <li class="dropdown"><a href="../company/index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">´ë¶È¾ğÊó<span class="caret"></span></a>
+         <!-- <li ><a href="../services.html">ä¼æ¥­æƒ…å ±</a></li>-->
+          <li class="dropdown"><a href="../company/index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ä¼æ¥­æƒ…å ±<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="../company/corporate_philosophy.html">´ë¶ÈÍıÇ°</a></li>
-            <li><a href="../company/history.html">±è³×</a></li>
-            <li><a href="../company/policy.html">¥İ¥ê¥·¡¼</a></li>
+            <li><a href="../company/corporate_philosophy.html">ä¼æ¥­ç†å¿µ</a></li>
+            <li><a href="../company/history.html">æ²¿é©</a></li>
+            <li><a href="../company/policy.html">ãƒãƒªã‚·ãƒ¼</a></li>
             <li class="divider"></li>
-            <li><a href="../recruit/index.html">ºÎÍÑ¤Ë¤Ä¤¤¤Æ</a></li>
+            <li><a href="../recruit/index.html">æ¡ç”¨ã«ã¤ã„ã¦</a></li>
             <li class="divider"></li>
-            <li><a href="../company/accsess.html">¥¢¥¯¥»¥¹</a></li>
+            <li><a href="../company/accsess.html">ã‚¢ã‚¯ã‚»ã‚¹</a></li>
           </ul>
         </li>
-          <li><a href="../buisiness/index.html">Åö¼Ò¤Î»ö¶È¤Ë¤Ä¤¤¤Æ</a></li>
-          <li><a href="../recruit/index.html">ºÎÍÑ¾ğÊó</a></li>
-          <li><a href="../contact/index.html">¤ªÌä¹ç¤»</a></li>
+          <li><a href="../buisiness/index.html">å½“ç¤¾ã®äº‹æ¥­ã«ã¤ã„ã¦</a></li>
+          <li><a href="../recruit/index.html">æ¡ç”¨æƒ…å ±</a></li>
+          <li><a href="../contact/index.html">ãŠå•åˆã›</a></li>
         </ul>
       </div>
     </div>
@@ -100,11 +103,11 @@
           <div class="row slide-margin">
             <div class="col-sm-12">
               <div class="carousel-content">
-                <h1>Welcome to ¡û¡ûweb site
+                <h1>Welcome to â—‹â—‹web site
                   <!--<span class="logo"><i class="fa fa-bolt"></i> Influx</span>-->
                 </h1>
-                <h2>»äÃ£¤ÏÌ¤Íè¤òºî¤ê½Ğ¤¹´ë¶È¤Ç¤¹¡£</h2>
-                <a class="btn-slide" href="../about-us.html">¾Ü¤·¤¯¸«¤ë</a></div>
+                <h2>ç§é”ã¯æœªæ¥ã‚’ä½œã‚Šå‡ºã™ä¼æ¥­ã§ã™ã€‚</h2>
+                <a class="btn-slide" href="../about-us.html">è©³ã—ãè¦‹ã‚‹</a></div>
             </div>
           </div>
         </div>
@@ -115,9 +118,9 @@
           <div class="row slide-margin">
             <div class="col-sm-12">
               <div class="carousel-content">
-                <h1>Ì¤Íè¤ò¸«¿ø¤¨¤¿³Î¤«¤Ê´ë¶È·Ğ±Ä</h1>
-                <h2>¼Ò°÷¤ß¤ó¤Ê¤¬°ì´İ¤È¤Ê¤êÌÜ»Ø¤¹ÌÜÉ¸¤Ë¸ş¤«¤Ã¤Æî²¿Ê¤¹¤ë¼ÒÉ÷</h2>
-                <a class="btn-slide" href="../about-us.html">¾Ü¤·¤¯¸«¤ë</a></div>
+                <h1>æœªæ¥ã‚’è¦‹æ®ãˆãŸç¢ºã‹ãªä¼æ¥­çµŒå–¶</h1>
+                <h2>ç¤¾å“¡ã¿ã‚“ãªãŒä¸€ä¸¸ã¨ãªã‚Šç›®æŒ‡ã™ç›®æ¨™ã«å‘ã‹ã£ã¦é‚é€²ã™ã‚‹ç¤¾é¢¨</h2>
+                <a class="btn-slide" href="../about-us.html">è©³ã—ãè¦‹ã‚‹</a></div>
             </div>
           </div>
         </div>
@@ -128,9 +131,9 @@
           <div class="row slide-margin">
             <div class="col-sm-12">
               <div class="carousel-content">
-                <h1>¼«Í³¤ÊÈ¯ÁÛ¤¬´ë¶È¤ÎÀ®Ä¹¤ò»Ù¤¨¤Æ¤¤¤Ş¤¹</h1>
-                <h2>½ÀÆğ¤ÊÈ¯ÁÛ¤È´ûÀ®³µÇ°¤Ë¤È¤é¤ï¤ì¤Ê¤¤¹Í¤¨¤¬¼¡Âå¤Î¿·¤·¤¤¤â¤Î¤òÀ¸¤ß½Ğ¤·¤Æ¤¤¤Ş¤¹¡£</h2>
-                <a class="btn-slide" href="../about-us.html">¾Ü¤·¤¯¸«¤ë</a></div>
+                <h1>è‡ªç”±ãªç™ºæƒ³ãŒä¼æ¥­ã®æˆé•·ã‚’æ”¯ãˆã¦ã„ã¾ã™</h1>
+                <h2>æŸ”è»Ÿãªç™ºæƒ³ã¨æ—¢æˆæ¦‚å¿µã«ã¨ã‚‰ã‚ã‚Œãªã„è€ƒãˆãŒæ¬¡ä»£ã®æ–°ã—ã„ã‚‚ã®ã‚’ç”Ÿã¿å‡ºã—ã¦ã„ã¾ã™ã€‚</h2>
+                <a class="btn-slide" href="../about-us.html">è©³ã—ãè¦‹ã‚‹</a></div>
             </div>
           </div>
         </div>
@@ -146,24 +149,24 @@
 <!-- TemplateBeginEditable name="main_content" -->
 <section id="news">
   <div class="container">
-    <h2 class="midashi">¤ªÃÎ¤é¤»</h2>
+    <h2 class="midashi">ãŠçŸ¥ã‚‰ã›</h2>
     <table class="table">
       <tbody>
         <tr>
           <th scope="col">2019.4.01</th>
-          <td>¥Û¡¼¥à¥Ú¡¼¥¸¤ò¹¹¿·¤¤¤¿¤·¤Ş¤·¤¿¡£</td>
+          <td>ãƒ›ãƒ¼ãƒ ãƒšãƒ¼ã‚¸ã‚’æ›´æ–°ã„ãŸã—ã¾ã—ãŸã€‚</td>
         </tr>
         <tr>
           <th scope="col">2019.4.01</th>
-          <td>¥Û¡¼¥à¥Ú¡¼¥¸¤ò¹¹¿·¤¤¤¿¤·¤Ş¤·¤¿¡£</td>
+          <td>ãƒ›ãƒ¼ãƒ ãƒšãƒ¼ã‚¸ã‚’æ›´æ–°ã„ãŸã—ã¾ã—ãŸã€‚</td>
         </tr>
         <tr>
           <th scope="col">2019.4.01</th>
-          <td>¥Û¡¼¥à¥Ú¡¼¥¸¤ò¹¹¿·¤¤¤¿¤·¤Ş¤·¤¿¡£</td>
+          <td>ãƒ›ãƒ¼ãƒ ãƒšãƒ¼ã‚¸ã‚’æ›´æ–°ã„ãŸã—ã¾ã—ãŸã€‚</td>
         </tr>
         <tr>
           <th scope="col">2019.4.01</th>
-          <td>¥Û¡¼¥à¥Ú¡¼¥¸¤ò¹¹¿·¤¤¤¿¤·¤Ş¤·¤¿¡£</td>
+          <td>ãƒ›ãƒ¼ãƒ ãƒšãƒ¼ã‚¸ã‚’æ›´æ–°ã„ãŸã—ã¾ã—ãŸã€‚</td>
         </tr>
       </tbody>
     </table>
@@ -171,46 +174,46 @@
 </section>
 <section id="greeting">
   <div class="container">
-    <h2 class="midashi">¤´¤¢¤¤¤µ¤Ä</h2>
+    <h2 class="midashi">ã”ã‚ã„ã•ã¤</h2>
     <div class="row">
-      <div class="col-sm-4"><img src="../images/president.jpg" class="img-responsive retina" alt="»³ÅÄÂÀÏº¼ÒÄ¹"></div>
+      <div class="col-sm-4"><img src="../images/president.jpg" class="img-responsive retina" alt="å±±ç”°å¤ªéƒç¤¾é•·"></div>
       <div class="col-sm-8">
-        <h3 class="komidashi">ÌÀÆü¤ÈÀÚ¤ê³«¤¯ÎÏ¤ò</h3>
-        <p class="kaisetu_read">¾ğ¤ËÜª¤µ¤»¤ĞÎ®¤µ¤ì¤ë¡£ÃÒ¤ËÆ¯¤±¤Ğ³Ñ¤¬Î©¤Ä¡£¤É¤³¤Ø±Û¤·¤Æ¤â½»¤ß¤Ë¤¯¤¤¤È¸ç¤Ã¤¿»ş¡¢»í¤¬À¸¤ì¤Æ¡¢²è¤¬½ĞÍè¤ë¡£¤È¤«¤¯¤Ë¿Í¤ÎÀ¤¤Ï½»¤ß¤Ë¤¯¤¤¡£°ÕÃÏ¤òÄÌ¤»¤Ğµç¶ş¤À¡£ 
-          ¤È¤«¤¯¤Ë¿Í¤ÎÀ¤¤Ï½»¤ß¤Ë¤¯¤¤¡£
-          ¤É¤³¤Ø±Û¤·¤Æ¤â½»¤ß¤Ë¤¯¤¤¤È¸ç¤Ã¤¿»ş¡¢»í¤¬À¸¤ì¤Æ¡¢²è¤¬½ĞÍè¤ë¡£°ÕÃÏ¤òÄÌ¤»¤Ğµç¶ş¤À¡£»³Ï©¤òÅĞ¤ê¤Ê¤¬¤é¡¢¤³¤¦¹Í¤¨¤¿¡£ÃÒ¤ËÆ¯¤±¤Ğ³Ñ¤¬Î©¤Ä¡£¤É¤³¤Ø±Û¤·¤Æ¤â½»¤ß¤Ë¤¯¤¤¤È¸ç¤Ã¤¿»ş¡¢»í¤¬À¸¤ì¤Æ¡¢²è¤¬½ĞÍè¤ë¡£ÃÒ¤ËÆ¯¤±¤Ğ³Ñ¤¬Î©¤Ä¡£ 
-          ¤È¤«¤¯¤Ë¿Í¤ÎÀ¤¤Ï½»¤ß¤Ë¤¯¤¤¡£»³Ï©¤òÅĞ¤ê¤Ê¤¬¤é¡¢¤³¤¦¹Í¤¨¤¿¡£¤È¤«¤¯¤Ë¿Í¤ÎÀ¤¤Ï½»¤ß¤Ë¤¯¤¤¡£½»¤ß¤Ë¤¯¤µ¤¬¹â¤¸¤ë¤È¡¢°Â¤¤½ê¤Ø°ú¤­±Û¤·¤¿¤¯¤Ê¤ë¡£½»¤ß¤Ë¤¯¤µ¤¬¹â¤¸¤ë¤È¡¢°Â¤¤½ê¤Ø°ú¤­±Û¤·¤¿¤¯¤Ê¤ë¡£¾ğ¤ËÜª¤µ¤»¤ĞÎ®¤µ¤ì¤ë¡£ 
-          °ÕÃÏ¤òÄÌ¤»¤Ğµç¶ş¤À¡£½»¤ß¤Ë¤¯¤µ¤¬¹â¤¸¤ë¤È¡¢°Â¤¤½ê¤Ø°ú¤­±Û¤·¤¿¤¯¤Ê¤ë¡£°ÕÃÏ¤òÄÌ¤»¤Ğµç¶ş¤À¡£ 
-          ¤È¤«¤¯¤Ë¿Í¤ÎÀ¤¤Ï½»¤ß¤Ë¤¯¤¤¡£¤È¤«¤¯¤Ë¿Í¤ÎÀ¤¤Ï½»¤ß¤Ë¤¯¤¤¡£½»¤ß¤Ë¤¯¤µ¤¬¹â¤¸¤ë¤È¡¢°Â¤¤½ê¤Ø°ú¤­±Û¤·¤¿¤¯¤Ê¤ë¡£»³Ï©¤òÅĞ¤ê¤Ê¤¬¤é¡¢¤³¤¦¹Í¤¨¤¿¡£ </p>
-        <h4 class="greeting_name">ÂåÉ½¼èÄùÌò¡¡»³ÅÄÂÀÏº</h4>
+        <h3 class="komidashi">æ˜æ—¥ã¨åˆ‡ã‚Šé–‹ãåŠ›ã‚’</h3>
+        <p class="kaisetu_read">æƒ…ã«æ£¹ã•ã›ã°æµã•ã‚Œã‚‹ã€‚æ™ºã«åƒã‘ã°è§’ãŒç«‹ã¤ã€‚ã©ã“ã¸è¶Šã—ã¦ã‚‚ä½ã¿ã«ãã„ã¨æ‚Ÿã£ãŸæ™‚ã€è©©ãŒç”Ÿã‚Œã¦ã€ç”»ãŒå‡ºæ¥ã‚‹ã€‚ã¨ã‹ãã«äººã®ä¸–ã¯ä½ã¿ã«ãã„ã€‚æ„åœ°ã‚’é€šã›ã°çª®å±ˆã ã€‚ 
+          ã¨ã‹ãã«äººã®ä¸–ã¯ä½ã¿ã«ãã„ã€‚
+          ã©ã“ã¸è¶Šã—ã¦ã‚‚ä½ã¿ã«ãã„ã¨æ‚Ÿã£ãŸæ™‚ã€è©©ãŒç”Ÿã‚Œã¦ã€ç”»ãŒå‡ºæ¥ã‚‹ã€‚æ„åœ°ã‚’é€šã›ã°çª®å±ˆã ã€‚å±±è·¯ã‚’ç™»ã‚ŠãªãŒã‚‰ã€ã“ã†è€ƒãˆãŸã€‚æ™ºã«åƒã‘ã°è§’ãŒç«‹ã¤ã€‚ã©ã“ã¸è¶Šã—ã¦ã‚‚ä½ã¿ã«ãã„ã¨æ‚Ÿã£ãŸæ™‚ã€è©©ãŒç”Ÿã‚Œã¦ã€ç”»ãŒå‡ºæ¥ã‚‹ã€‚æ™ºã«åƒã‘ã°è§’ãŒç«‹ã¤ã€‚ 
+          ã¨ã‹ãã«äººã®ä¸–ã¯ä½ã¿ã«ãã„ã€‚å±±è·¯ã‚’ç™»ã‚ŠãªãŒã‚‰ã€ã“ã†è€ƒãˆãŸã€‚ã¨ã‹ãã«äººã®ä¸–ã¯ä½ã¿ã«ãã„ã€‚ä½ã¿ã«ãã•ãŒé«˜ã˜ã‚‹ã¨ã€å®‰ã„æ‰€ã¸å¼•ãè¶Šã—ãŸããªã‚‹ã€‚ä½ã¿ã«ãã•ãŒé«˜ã˜ã‚‹ã¨ã€å®‰ã„æ‰€ã¸å¼•ãè¶Šã—ãŸããªã‚‹ã€‚æƒ…ã«æ£¹ã•ã›ã°æµã•ã‚Œã‚‹ã€‚ 
+          æ„åœ°ã‚’é€šã›ã°çª®å±ˆã ã€‚ä½ã¿ã«ãã•ãŒé«˜ã˜ã‚‹ã¨ã€å®‰ã„æ‰€ã¸å¼•ãè¶Šã—ãŸããªã‚‹ã€‚æ„åœ°ã‚’é€šã›ã°çª®å±ˆã ã€‚ 
+          ã¨ã‹ãã«äººã®ä¸–ã¯ä½ã¿ã«ãã„ã€‚ã¨ã‹ãã«äººã®ä¸–ã¯ä½ã¿ã«ãã„ã€‚ä½ã¿ã«ãã•ãŒé«˜ã˜ã‚‹ã¨ã€å®‰ã„æ‰€ã¸å¼•ãè¶Šã—ãŸããªã‚‹ã€‚å±±è·¯ã‚’ç™»ã‚ŠãªãŒã‚‰ã€ã“ã†è€ƒãˆãŸã€‚ </p>
+        <h4 class="greeting_name">ä»£è¡¨å–ç· å½¹ã€€å±±ç”°å¤ªéƒ</h4>
       </div>
     </div>
   </div>
 </section>
 <section id="about">
   <div class="container">
-    <h2 class="midashi">»ö¶ÈÆâÍÆ</h2>
+    <h2 class="midashi">äº‹æ¥­å†…å®¹</h2>
     <div class="row">
       <div class="col-sm-4 animatedParent">
         <div class="text-center">
-          <h3 class="jigyou_title">¡»¡»»ö¶È</h3>
-          <img src="../images/business1.jpg" class="img-responsive retina" alt="¡»¡»»ö¶È">
+          <h3 class="jigyou_title">ã€‡ã€‡äº‹æ¥­</h3>
+          <img src="../images/business1.jpg" class="img-responsive retina" alt="ã€‡ã€‡äº‹æ¥­">
           <p> Ne mundi fabulas corrumpit vim, nulla vivendum conceptam eu nam. Ius ex principes complectitur, ex quo duis suscipit. Ius fastidii reprimique no. Sadipscing appellantur pri ad. Oratio moderatius definitiones cum ex, mea ne brute vivendum percipitur. </p>
-          <a href="#service" class="btn btn-skin btn-scroll btn-danger">¾Ü¤·¤¯¸«¤ë</a></div>
+          <a href="#service" class="btn btn-skin btn-scroll btn-danger">è©³ã—ãè¦‹ã‚‹</a></div>
       </div>
       <div class="col-sm-4 animatedParent bottom_margin30">
         <div class="text-center">
-          <h3 class="jigyou_title">¡»¡»»ö¶È</h3>
-          <img src="../images/business2.jpg" class="img-responsive retina" alt="¡»¡»»ö¶È">
+          <h3 class="jigyou_title">ã€‡ã€‡äº‹æ¥­</h3>
+          <img src="../images/business2.jpg" class="img-responsive retina" alt="ã€‡ã€‡äº‹æ¥­">
           <p> Ne mundi fabulas corrumpit vim, nulla vivendum conceptam eu nam. Ius ex principes complectitur, ex quo duis suscipit. Ius fastidii reprimique no. Sadipscing appellantur pri ad. Oratio moderatius definitiones cum ex, mea ne brute vivendum percipitur. </p>
-          <a href="#service" class="btn btn-skin btn-scroll btn-danger">¾Ü¤·¤¯¸«¤ë</a></div>
+          <a href="#service" class="btn btn-skin btn-scroll btn-danger">è©³ã—ãè¦‹ã‚‹</a></div>
       </div>
       <div class="col-sm-4 animatedParent bottom_margin30">
         <div class="text-center">
-          <h3 class="jigyou_title">¡»¡»»ö¶È</h3>
-          <img src="../images/business3.jpg" class="img-responsive retina" alt="¡»¡»»ö¶È">
+          <h3 class="jigyou_title">ã€‡ã€‡äº‹æ¥­</h3>
+          <img src="../images/business3.jpg" class="img-responsive retina" alt="ã€‡ã€‡äº‹æ¥­">
           <p> Ne mundi fabulas corrumpit vim, nulla vivendum conceptam eu nam. Ius ex principes complectitur, ex quo duis suscipit. Ius fastidii reprimique no. Sadipscing appellantur pri ad. Oratio moderatius definitiones cum ex, mea ne brute vivendum percipitur. </p>
-          <a href="#service" class="btn btn-skin btn-scroll btn-danger">¾Ü¤·¤¯¸«¤ë</a></div>
+          <a href="#service" class="btn btn-skin btn-scroll btn-danger">è©³ã—ãè¦‹ã‚‹</a></div>
       </div>
     </div>
   </div>
@@ -267,7 +270,7 @@
             <div class="recent-work-inner">
               <h3><a href="#">Lorem Ipsum</a></h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique bibendum.</p>
-              <a class="preview" href="../images/portfolio/full/item1.jpg" rel="prettyPhoto" title=""><i class="fa fa-search"></i> View</a></div>
+              <a class="preview" href="../images/portfolio/full/item1.jpg" rel="" title=""><i class="fa fa-search"></i> View</a></div>
           </div>
         </div>
       </div>
@@ -277,7 +280,7 @@
             <div class="recent-work-inner">
               <h3><a href="#">Lorem Ipsum</a></h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique bibendum.</p>
-              <a class="preview" href="../images/portfolio/full/item2.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a></div>
+              <a class="preview" href="../images/portfolio/full/item2.jpg" rel=""><i class="fa fa-search"></i> View</a></div>
           </div>
         </div>
       </div>
@@ -287,7 +290,7 @@
             <div class="recent-work-inner">
               <h3><a href="#">Lorem Ipsum</a></h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique bibendum.</p>
-              <a class="preview" href="../images/portfolio/full/item3.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a></div>
+              <a class="preview" href="../images/portfolio/full/item3.jpg" rel=""><i class="fa fa-search"></i> View</a></div>
           </div>
         </div>
       </div>
@@ -297,7 +300,7 @@
             <div class="recent-work-inner">
               <h3><a href="#">Lorem Ipsum</a></h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique bibendum.</p>
-              <a class="preview" href="../images/portfolio/full/item4.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a></div>
+              <a class="preview" href="../images/portfolio/full/item4.jpg" rel=""><i class="fa fa-search"></i> View</a></div>
           </div>
         </div>
       </div>
@@ -307,7 +310,7 @@
             <div class="recent-work-inner">
               <h3><a href="#">Lorem Ipsum</a></h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique bibendum.</p>
-              <a class="preview" href="../images/portfolio/full/item5.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a></div>
+              <a class="preview" href="../images/portfolio/full/item5.jpg" rel=""><i class="fa fa-search"></i> View</a></div>
           </div>
         </div>
       </div>
@@ -317,7 +320,7 @@
             <div class="recent-work-inner">
               <h3><a href="#">Lorem Ipsum</a></h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique bibendum.</p>
-              <a class="preview" href="../images/portfolio/full/item6.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a></div>
+              <a class="preview" href="../images/portfolio/full/item6.jpg" rel=""><i class="fa fa-search"></i> View</a></div>
           </div>
         </div>
       </div>
@@ -340,17 +343,17 @@
           <div class="col-sm-4">
             <blockquote>
               <p class="clients-words">Morbi eget enim nisi. In venenatis porta est ut molestie nulla facilisi. Aliquam vehicula efficitur lorem eget eleifend.</p>
-              <span class="clients-name">- John Doe, Company</span> <img class="img-circle img-thumbnail" src="../images/testimonials/man1.jpg" alt="²èÁüÀâÌÀ"></blockquote>
+              <span class="clients-name">- John Doe, Company</span> <img class="img-circle img-thumbnail" src="../images/testimonials/man1.jpg" alt="ç”»åƒèª¬æ˜"></blockquote>
           </div>
           <div class="col-sm-4">
             <blockquote>
               <p class="clients-words">Maecenas tincidunt venenatis tempus. Nulla tristique euismod urna at ullamcorper.</p>
-              <span class="clients-name">- Jane Doe, Company</span> <img class="img-circle img-thumbnail" src="../images/testimonials/woman1.jpg" alt="²èÁüÀâÌÀ"></blockquote>
+              <span class="clients-name">- Jane Doe, Company</span> <img class="img-circle img-thumbnail" src="../images/testimonials/woman1.jpg" alt="ç”»åƒèª¬æ˜"></blockquote>
           </div>
           <div class="col-sm-4">
             <blockquote>
               <p  class="clients-words">Aliquam euismod nunc id eros sollicitudin interdum. Integer eget sem nec nulla dictum dictum.</p>
-              <span class="clients-name">- Brian Smith, Company</span> <img class="img-circle img-thumbnail" src="../images/testimonials/man1.jpg" alt="²èÁüÀâÌÀ"></blockquote>
+              <span class="clients-name">- Brian Smith, Company</span> <img class="img-circle img-thumbnail" src="../images/testimonials/man1.jpg" alt="ç”»åƒèª¬æ˜"></blockquote>
           </div>
         </div>
         <!--/.row-->
@@ -447,11 +450,11 @@
     </div>
     <div class="partners">
       <ul>
-        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner1.png" alt="²èÁüÀâÌÀ"></a></li>
-        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner2.png" alt="²èÁüÀâÌÀ"></a></li>
-        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner3.png" alt="²èÁüÀâÌÀ"></a></li>
-        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner4.png" alt="²èÁüÀâÌÀ"></a></li>
-        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner5.png" alt="²èÁüÀâÌÀ"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner1.png" alt="ç”»åƒèª¬æ˜"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner2.png" alt="ç”»åƒèª¬æ˜"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner3.png" alt="ç”»åƒèª¬æ˜"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner4.png" alt="ç”»åƒèª¬æ˜"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner5.png" alt="ç”»åƒèª¬æ˜"></a></li>
       </ul>
     </div>
   </div>
@@ -490,7 +493,7 @@
 <script src="../js/jquery.prettyPhoto.js"></script> 
 <script src="../js/jquery.isotope.min.js"></script> 
 <script src="../js/main.js"></script>
-<script type="text/javascript" src="../js/retina.js"></script>
+<script src="../js/retina.js"></script>
   
 </body>
 </html>
