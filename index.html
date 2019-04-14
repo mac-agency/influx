@@ -4,34 +4,20 @@
 <meta charset="euc-jp">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>事業内容について</title>
+<title>Influx</title>
 <meta name="description" content="説明文が入ります。">
 <meta name="keywords" content="キーワードが入ります。">  
-<style type="text/css">
-.jumbotron.about_us {
-  background-image: url(../images/top_slide2.jpg);
-  background-position: 0% 0%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  padding-top: 50px;
-  margin-top: 50px;
-  margin-bottom: 0px;
-  position: static;
-  padding-bottom: 50px;
-}
-</style>
 <!-- InstanceEndEditable -->
 
 <!-- core CSS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<link href="../css/bootstrap.min.css" rel="stylesheet">
-<link href="../css/font-awesome.min.css" rel="stylesheet">
-<link href="../css/prettyPhoto.css" rel="stylesheet">
-<link href="../css/main.css" rel="stylesheet">
-<link href="../css/responsive.css" rel="stylesheet">
-<link href="../css/index_customize.css" rel="stylesheet" type="text/css">
-<link href="../css/page_to_top.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/prettyPhoto.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<link href="css/index_customize.css" rel="stylesheet" type="text/css">
+<link href="css/page_to_top.css" rel="stylesheet" type="text/css">
  <script>
  $(function() {
     var TopBtn = $('#PageTopBtn');    
@@ -71,27 +57,27 @@
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        <a class="navbar-brand" href="../index.html"><i class="fa fa-bolt"></i> YOUR Company</a> </div>
+        <a class="navbar-brand" href="index.html"><i class="fa fa-bolt"></i> YOUR Company</a> </div>
       <div class="collapse navbar-collapse navbar-right">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="../index_base.html">Home</a></li>
-          <li><a href="../about_us/index.html">当社について</a></li>
+          <li class="active"><a href="index_base.html">Home</a></li>
+          <li><a href="about_us/index.html">当社について</a></li>
           
          <!-- <li ><a href="../services.html">企業情報</a></li>-->
-          <li class="dropdown"><a href="../company/index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">企業情報<span class="caret"></span></a>
+          <li class="dropdown"><a href="company/index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">企業情報<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="../company/corporate_philosophy.html">企業理念</a></li>
-            <li><a href="../company/history.html">沿革</a></li>
-            <li><a href="../company/policy.html">ポリシー</a></li>
+            <li><a href="company/corporate_philosophy.html">企業理念</a></li>
+            <li><a href="company/history.html">沿革</a></li>
+            <li><a href="company/policy.html">ポリシー</a></li>
             <li class="divider"></li>
-            <li><a href="../recruit/index.html">採用について</a></li>
+            <li><a href="recruit/index.html">採用について</a></li>
             <li class="divider"></li>
-            <li><a href="../company/accsess.html">アクセス</a></li>
+            <li><a href="company/accsess.html">アクセス</a></li>
           </ul>
         </li>
-          <li><a href="index.html">当社の事業について</a></li>
-          <li><a href="../recruit/index.html">採用情報</a></li>
-          <li><a href="../contact/index.html">お問合せ</a></li>
+          <li><a href="buisiness/index.html">当社の事業について</a></li>
+          <li><a href="recruit/index.html">採用情報</a></li>
+          <li><a href="contact/index.html">お問合せ</a></li>
         </ul>
       </div>
     </div>
@@ -101,21 +87,64 @@
   
 </header>
 <!--/header--><!-- InstanceBeginEditable name="top_slide" -->
-<section id="top">
-  <!--　▼ ジャンボトロン　 -->
-  <div class="jumbotron about_us">
-      <div class="container">
-        <h1 class="kasou_title">事業内容について</h1>
-        <p class="sub_title">サブテキストサブテキストサブテキストサブテキストサブテキストサブテキスト</p>
-        <!--<a class="btn btn-primary btn-lg" href="#" role="button">Learn more 》</a>-->
+<section id="main-slider" class="no-margin">
+  <div class="carousel slide">
+    <ol class="carousel-indicators">
+      <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+      <li data-target="#main-slider" data-slide-to="1"></li>
+      <li data-target="#main-slider" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active" style="background-image: url(images/top_slide1.jpg)">
+        <div class="container">
+          <div class="row slide-margin">
+            <div class="col-sm-12">
+              <div class="carousel-content">
+                <h1>Welcome to ○○web site
+                  <!--<span class="logo"><i class="fa fa-bolt"></i> Influx</span>-->
+                </h1>
+                <h2>私達は未来を作り出す企業です。</h2>
+                <a class="btn-slide" href="about-us.html">詳しく見る</a></div>
+            </div>
+          </div>
+        </div>
       </div>
+      <!--/.item-->
+      <div class="item" style="background-image: url(images/top_slide2.jpg)">
+        <div class="container">
+          <div class="row slide-margin">
+            <div class="col-sm-12">
+              <div class="carousel-content">
+                <h1>未来を見据えた確かな企業経営</h1>
+                <h2>社員みんなが一丸となり目指す目標に向かって邁進する社風</h2>
+                <a class="btn-slide" href="about-us.html">詳しく見る</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/.item-->
+      <div class="item" style="background-image: url(images/top_slide3.jpg)">
+        <div class="container">
+          <div class="row slide-margin">
+            <div class="col-sm-12">
+              <div class="carousel-content">
+                <h1>自由な発想が企業の成長を支えています</h1>
+                <h2>柔軟な発想と既成概念にとらわれない考えが次代の新しいものを生み出しています。</h2>
+                <a class="btn-slide" href="about-us.html">詳しく見る</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/.item-->
+    </div>
+    <!--/.carousel-inner-->
   </div>
-<!--　▲ ジャンボトロン　 -->
-</section>
+  <!--/.carousel-->
+  <a class="prev hidden-xs" href="#main-slider" data-slide="prev"> <i class="fa fa-chevron-left"></i></a> <a class="next hidden-xs" href="#main-slider" data-slide="next"> <i class="fa fa-chevron-right"></i></a></section>
 <!-- InstanceEndEditable --><!--/#main-slider-->
 <div class="color-border"> </div>
 <!-- InstanceBeginEditable name="main_content" -->
-<section id="news" class="section_padding">
+<section id="news">
   <div class="container">
     <h2 class="midashi">お知らせ</h2>
     <table class="table">
@@ -140,11 +169,11 @@
     </table>
   </div>
 </section>
-<section id="greeting" class="section_padding">
+<section id="greeting">
   <div class="container">
     <h2 class="midashi">ごあいさつ</h2>
     <div class="row">
-      <div class="col-sm-4"><img src="../images/president.jpg" class="img-responsive retina" alt="山田太郎社長"></div>
+      <div class="col-sm-4"><img src="images/president.jpg" class="img-responsive retina" alt="山田太郎社長"></div>
       <div class="col-sm-8">
         <h3 class="komidashi">明日と切り開く力を</h3>
         <p class="kaisetu_read">情に棹させば流される。智に働けば角が立つ。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。とかくに人の世は住みにくい。意地を通せば窮屈だ。 
@@ -158,35 +187,35 @@
     </div>
   </div>
 </section>
-<section id="about" class="section_padding">
+<section id="about">
   <div class="container">
     <h2 class="midashi">事業内容</h2>
     <div class="row">
       <div class="col-sm-4 animatedParent">
         <div class="text-center">
           <h3 class="jigyou_title">〇〇事業</h3>
-          <img src="../images/business1.jpg" class="img-responsive retina" alt="〇〇事業">
+          <img src="images/business1.jpg" class="img-responsive retina" alt="〇〇事業">
           <p> Ne mundi fabulas corrumpit vim, nulla vivendum conceptam eu nam. Ius ex principes complectitur, ex quo duis suscipit. Ius fastidii reprimique no. Sadipscing appellantur pri ad. Oratio moderatius definitiones cum ex, mea ne brute vivendum percipitur. </p>
           <a href="#service" class="btn btn-skin btn-scroll btn-danger">詳しく見る</a></div>
       </div>
       <div class="col-sm-4 animatedParent bottom_margin30">
         <div class="text-center">
           <h3 class="jigyou_title">〇〇事業</h3>
-          <img src="../images/business2.jpg" class="img-responsive retina" alt="〇〇事業">
+          <img src="images/business2.jpg" class="img-responsive retina" alt="〇〇事業">
           <p> Ne mundi fabulas corrumpit vim, nulla vivendum conceptam eu nam. Ius ex principes complectitur, ex quo duis suscipit. Ius fastidii reprimique no. Sadipscing appellantur pri ad. Oratio moderatius definitiones cum ex, mea ne brute vivendum percipitur. </p>
           <a href="#service" class="btn btn-skin btn-scroll btn-danger">詳しく見る</a></div>
       </div>
       <div class="col-sm-4 animatedParent bottom_margin30">
         <div class="text-center">
           <h3 class="jigyou_title">〇〇事業</h3>
-          <img src="../images/business3.jpg" class="img-responsive retina" alt="〇〇事業">
+          <img src="images/business3.jpg" class="img-responsive retina" alt="〇〇事業">
           <p> Ne mundi fabulas corrumpit vim, nulla vivendum conceptam eu nam. Ius ex principes complectitur, ex quo duis suscipit. Ius fastidii reprimique no. Sadipscing appellantur pri ad. Oratio moderatius definitiones cum ex, mea ne brute vivendum percipitur. </p>
           <a href="#service" class="btn btn-skin btn-scroll btn-danger">詳しく見る</a></div>
       </div>
     </div>
   </div>
 </section>
-<section id="feature" class="section_padding" >
+<section id="feature" >
   <div class="container">
     <div class="center">
       <h2>Featured Services</h2>
@@ -224,7 +253,7 @@
   <!--/.container-->
 </section>
 <!--/#feature-->
-<section id="recent-works" class="section_padding">
+<section id="recent-works">
   <div class="container">
     <div class="center">
       <h2>Recent Works</h2>
@@ -233,62 +262,62 @@
     </div>
     <div class="row">
       <div class="col-xs-12 col-sm-4 col-md-4">
-        <div class="recent-work-wrap"> <img class="img-responsive" src="../images/portfolio/recent/item1.jpg" alt="">
+        <div class="recent-work-wrap"> <img class="img-responsive" src="images/portfolio/recent/item1.jpg" alt="">
           <div class="overlay">
             <div class="recent-work-inner">
               <h3><a href="#">Lorem Ipsum</a></h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique bibendum.</p>
-              <a class="preview" href="../images/portfolio/full/item1.jpg" rel="prettyPhoto" title=""><i class="fa fa-search"></i> View</a></div>
+              <a class="preview" href="images/portfolio/full/item1.jpg" rel="prettyPhoto" title=""><i class="fa fa-search"></i> View</a></div>
           </div>
         </div>
       </div>
       <div class="col-xs-12 col-sm-4 col-md-4">
-        <div class="recent-work-wrap"> <img class="img-responsive" src="../images/portfolio/recent/item2.jpg" alt="">
+        <div class="recent-work-wrap"> <img class="img-responsive" src="images/portfolio/recent/item2.jpg" alt="">
           <div class="overlay">
             <div class="recent-work-inner">
               <h3><a href="#">Lorem Ipsum</a></h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique bibendum.</p>
-              <a class="preview" href="../images/portfolio/full/item2.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a></div>
+              <a class="preview" href="images/portfolio/full/item2.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a></div>
           </div>
         </div>
       </div>
       <div class="col-xs-12 col-sm-4 col-md-4">
-        <div class="recent-work-wrap"> <img class="img-responsive" src="../images/portfolio/recent/item3.jpg" alt="">
+        <div class="recent-work-wrap"> <img class="img-responsive" src="images/portfolio/recent/item3.jpg" alt="">
           <div class="overlay">
             <div class="recent-work-inner">
               <h3><a href="#">Lorem Ipsum</a></h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique bibendum.</p>
-              <a class="preview" href="../images/portfolio/full/item3.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a></div>
+              <a class="preview" href="images/portfolio/full/item3.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a></div>
           </div>
         </div>
       </div>
       <div class="col-xs-12 col-sm-4 col-md-4">
-        <div class="recent-work-wrap"> <img class="img-responsive" src="../images/portfolio/recent/item4.jpg" alt="">
+        <div class="recent-work-wrap"> <img class="img-responsive" src="images/portfolio/recent/item4.jpg" alt="">
           <div class="overlay">
             <div class="recent-work-inner">
               <h3><a href="#">Lorem Ipsum</a></h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique bibendum.</p>
-              <a class="preview" href="../images/portfolio/full/item4.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a></div>
+              <a class="preview" href="images/portfolio/full/item4.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a></div>
           </div>
         </div>
       </div>
       <div class="col-xs-12 col-sm-4 col-md-4">
-        <div class="recent-work-wrap"> <img class="img-responsive" src="../images/portfolio/recent/item5.jpg" alt="">
+        <div class="recent-work-wrap"> <img class="img-responsive" src="images/portfolio/recent/item5.jpg" alt="">
           <div class="overlay">
             <div class="recent-work-inner">
               <h3><a href="#">Lorem Ipsum</a></h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique bibendum.</p>
-              <a class="preview" href="../images/portfolio/full/item5.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a></div>
+              <a class="preview" href="images/portfolio/full/item5.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a></div>
           </div>
         </div>
       </div>
       <div class="col-xs-12 col-sm-4 col-md-4">
-        <div class="recent-work-wrap"> <img class="img-responsive" src="../images/portfolio/recent/item6.jpg" alt="">
+        <div class="recent-work-wrap"> <img class="img-responsive" src="images/portfolio/recent/item6.jpg" alt="">
           <div class="overlay">
             <div class="recent-work-inner">
               <h3><a href="#">Lorem Ipsum</a></h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique bibendum.</p>
-              <a class="preview" href="../images/portfolio/full/item6.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a></div>
+              <a class="preview" href="images/portfolio/full/item6.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a></div>
           </div>
         </div>
       </div>
@@ -298,7 +327,7 @@
   <!--/.container-->
 </section>
 <!--/#recent-works-->
-<section id="testimonials" class="service-item section_padding">
+<section id="testimonials" class="service-item">
   <div class="container">
     <div class="center">
       <h2>What Our Clients Says</h2>
@@ -311,17 +340,17 @@
           <div class="col-sm-4">
             <blockquote>
               <p class="clients-words">Morbi eget enim nisi. In venenatis porta est ut molestie nulla facilisi. Aliquam vehicula efficitur lorem eget eleifend.</p>
-              <span class="clients-name">- John Doe, Company</span> <img class="img-circle img-thumbnail" src="../images/testimonials/man1.jpg" alt="画像説明"></blockquote>
+              <span class="clients-name">- John Doe, Company</span> <img class="img-circle img-thumbnail" src="images/testimonials/man1.jpg" alt="画像説明"></blockquote>
           </div>
           <div class="col-sm-4">
             <blockquote>
               <p class="clients-words">Maecenas tincidunt venenatis tempus. Nulla tristique euismod urna at ullamcorper.</p>
-              <span class="clients-name">- Jane Doe, Company</span> <img class="img-circle img-thumbnail" src="../images/testimonials/woman1.jpg" alt="画像説明"></blockquote>
+              <span class="clients-name">- Jane Doe, Company</span> <img class="img-circle img-thumbnail" src="images/testimonials/woman1.jpg" alt="画像説明"></blockquote>
           </div>
           <div class="col-sm-4">
             <blockquote>
               <p  class="clients-words">Aliquam euismod nunc id eros sollicitudin interdum. Integer eget sem nec nulla dictum dictum.</p>
-              <span class="clients-name">- Brian Smith, Company</span> <img class="img-circle img-thumbnail" src="../images/testimonials/man1.jpg" alt="画像説明"></blockquote>
+              <span class="clients-name">- Brian Smith, Company</span> <img class="img-circle img-thumbnail" src="images/testimonials/man1.jpg" alt="画像説明"></blockquote>
           </div>
         </div>
         <!--/.row-->
@@ -409,7 +438,7 @@
   <!--/.container-->
 </section>
 <!--/#middle-->
-<section id="partner" class="section_padding">
+<section id="partner">
   <div class="container">
     <div class="center">
       <h2>Our Awesome Clients</h2>
@@ -418,11 +447,11 @@
     </div>
     <div class="partners">
       <ul>
-        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner1.png" alt="画像説明"></a></li>
-        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner2.png" alt="画像説明"></a></li>
-        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner3.png" alt="画像説明"></a></li>
-        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner4.png" alt="画像説明"></a></li>
-        <li> <a href="#"><img class="img-responsive" src="../images/partners/partner5.png" alt="画像説明"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="images/partners/partner1.png" alt="画像説明"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="images/partners/partner2.png" alt="画像説明"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="images/partners/partner3.png" alt="画像説明"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="images/partners/partner4.png" alt="画像説明"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="images/partners/partner5.png" alt="画像説明"></a></li>
       </ul>
     </div>
   </div>
@@ -436,7 +465,7 @@
         <h2>Want to discuss a project?</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget nisl vel justo suscipit ullamcorper sed at lacus.<br>
           Aliquam euismod nunc id eros sollicitudin interdum.</p>
-        <a href="../contact-us.html" class="btn btn-primary">Contact us</a></div>
+        <a href="contact-us.html" class="btn btn-primary">Contact us</a></div>
     </div>
   </div>
   <!--/.container-->
@@ -456,12 +485,12 @@
 </footer>
 <!--/#footer--> 
 
-<script src="../js/jquery.js"></script> 
-<script src="../js/bootstrap.min.js"></script> 
-<script src="../js/jquery.prettyPhoto.js"></script> 
-<script src="../js/jquery.isotope.min.js"></script> 
-<script src="../js/main.js"></script>
-<script type="text/javascript" src="../js/retina.js"></script>
+<script src="js/jquery.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.prettyPhoto.js"></script> 
+<script src="js/jquery.isotope.min.js"></script> 
+<script src="js/main.js"></script>
+<script type="text/javascript" src="js/retina.js"></script>
   
 </body>
 <!-- InstanceEnd --></html>
