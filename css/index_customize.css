@@ -157,6 +157,18 @@
   height: auto;
 }
 
+.jumbotron.about_us {
+  background-image: url(../images/top_slide2.jpg);
+  background-position: 0% 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  position: static;
+  padding-bottom: 50px;
+}
 .komidashi {
   font-size: 16px;
   line-height: 1.5em;
@@ -196,6 +208,19 @@ body > section {
   -moz-background-size: cover;
   background-size: cover;
   height: auto;
+}
+
+.jumbotron.company_top {
+  background-image: url(../company/images/company_top.jpg);
+  background-position: 50% 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  position: static;
+  padding-bottom: 50px;
 }
 
 
