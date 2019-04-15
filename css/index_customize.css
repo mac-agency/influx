@@ -102,6 +102,8 @@
 .midashi {
   text-align: center;
   font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .kaisetu_read {
@@ -195,8 +197,8 @@ body > section {
 }
 
 .section_padding {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .hero_contact {
@@ -221,6 +223,9 @@ body > section {
   margin-bottom: 0px;
   position: static;
   padding-bottom: 50px;
+}
+
+.retina {
 }
 
 
