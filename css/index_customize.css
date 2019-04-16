@@ -160,9 +160,9 @@
 }
 
 .jumbotron.about_us {
-  background-image: url(../images/top_slide2.jpg);
-  background-position: 0% 0%;
-  background-size: cover;
+  background-image: url(../about_us/images/about_us_top.jpg);
+  background-position: 50% 0%;
+  background-size: auto 1000px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding-top: 50px;
@@ -239,12 +239,14 @@ body > section {
   margin-bottom: 0px;
   position: static;
   padding-bottom: 50px;
-  background-clip: padding-box;
-  background-origin: padding-box;
 }
 
 .inyou_red {
   border-left-color: #FD0004;
+}
+
+.text_shadow {
+  text-shadow: 1px 1px 1px #000000;
 }
 
 
