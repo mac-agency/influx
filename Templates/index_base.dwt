@@ -2,19 +2,17 @@
 <html lang="zxx">
 <head>
 <!-- TemplateBeginEditable name="charset" -->
-  <meta charset="utf-8">
-  <!-- TemplateEndEditable -->
+<meta charset="utf-8">
+<!-- TemplateEndEditable -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noindex">
+<meta name="robots" content="noindex">
 <!-- TemplateBeginEditable name="doctitle" -->
 <title>Influx</title>
 <meta name="description" content="説明文が入ります。">
-<meta name="keywords" content="キーワードが入ります。"> 
-  
+<meta name="keywords" content="キーワードが入ります。">
 <!-- TemplateEndEditable -->
-
 <!-- core CSS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <link href="../css/bootstrap.min.css" rel="stylesheet">
 <link href="../css/font-awesome.min.css" rel="stylesheet">
 <link href="../css/prettyPhoto.css" rel="stylesheet">
@@ -22,7 +20,7 @@
 <link href="../css/responsive.css" rel="stylesheet">
 <link href="../css/index_customize.css" rel="stylesheet" type="text/css">
 <link href="../css/page_to_top.css" rel="stylesheet" type="text/css">
- <script>
+<script>
  $(function() {
     var TopBtn = $('#PageTopBtn');    
     TopBtn.hide();
@@ -43,14 +41,14 @@
         return false;
     });
 });
-  </script> 
+  </script>
 <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
 <!-- TemplateBeginEditable name="head" -->
-  
 <!-- TemplateEndEditable -->
+<!-- TemplateParam name="option1" type="boolean" value="false" -->
 </head>
 <!--/head-->
 
@@ -475,16 +473,46 @@
   </div>
   <!--/.container-->
 </section>
-<!-- TemplateEndEditable --><!--/#get-started-->
+<!-- TemplateEndEditable --><!--/#get-started--><!-- TemplateBeginIf cond="option1" -->
+  <section id="option" class="section_padding">
+    
+  <div class="container">
+    <h2 class="midashi">おすすめカテゴリー</h2>
+    <div class="row">
+    <div class="col-sm-3">
+      <div class="card"> <img class="img-responsive retina" src="../images/top1.jpg" alt="事業内容">
+        <!--<h4>Investment Strategy</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>--> <a href="#" class="btn btn-danger btn-block top_margin5">事業内容</a> </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card"> <img class="img-responsive retina" src="../images/top2.jpg" alt="IR情報">
+        <!--<h4>Investment Strategy</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>--> <a href="#" class="btn btn-danger btn-block top_margin5">IR情報</a> </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card"> <img class="img-responsive retina" src="../images/top3.jpg" alt="各部門のご紹介">
+        <!--<h4>Investment Strategy</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>--> <a href="#" class="btn btn-danger btn-block top_margin5">各部門のご紹介</a> </div>
+    </div>
+      <div class="col-sm-3">
+      <div class="card"> <img class="img-responsive retina" src="../images/top4.jpg" alt="社員の声">
+        <!--<h4>Investment Strategy</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>--> <a href="#" class="btn btn-danger btn-block top_margin5">社員の声</a> </div>
+    </div>
+    </div>
+  </div>
+
+    </section>
+  <!-- TemplateEndIf -->
 
 <div class="color-border"> </div>
 <footer id="footer">
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">Copyright &copy; 2015 Company Name. Design by <a href="http://www.templategarden.com" rel="nofollow">TemplateGarden</a></div>
-      <div class="col-sm-6">
+      <div class="col-sm-6">Copyright &copy; 2019 Your Company Name. Produced by <a href="https://www.mac-agency.com" rel="nofollow">MAC AGENCY</a></div>
+      <!--<div class="col-sm-6">
         <div class="follow-us"> <a class="fa fa-facebook social-icon" href="#"></a> <a class="fa fa-twitter social-icon" href="#"></a> <a class="fa fa-linkedin social-icon" href="#"></a> <a class="fa fa-google-plus social-icon" href="#"></a> </div>
-      </div>
+      </div>-->
     </div>
   </div>
 </footer>

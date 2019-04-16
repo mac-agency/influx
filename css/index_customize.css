@@ -228,6 +228,25 @@ body > section {
 .retina {
 }
 
+.jumbotron.buisiness {
+  background-image: url(../buisiness/images/business_top.jpg);
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  position: static;
+  padding-bottom: 50px;
+  background-clip: padding-box;
+  background-origin: padding-box;
+}
+
+.inyou_red {
+  border-left-color: #FD0004;
+}
+
 
 @media (max-width:320px){
 }
