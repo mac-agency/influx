@@ -183,8 +183,8 @@ body > section {
 }
 
 .kasou_title {
-  padding-top: 30px;
-  font-size: 21px;
+  padding-top: 80px;
+  font-size: 30px;
   line-height: 1.5em;
   text-align: center;
 }
@@ -247,6 +247,19 @@ body > section {
 
 .text_shadow {
   text-shadow: 1px 1px 1px #000000;
+}
+
+.jumbotron.policy {
+  background-image: url(../company/images/policy_top.jpg);
+  background-position: 50% 0%;
+  background-size: auto 1000px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  position: static;
+  padding-bottom: 50px;
 }
 
 
