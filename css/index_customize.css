@@ -262,6 +262,71 @@ body > section {
   padding-bottom: 50px;
 }
 
+.jumbotron.rinen {
+  background-image: url(../company/images/philosophy_top.jpg);
+  background-position: 50% 0%;
+  background-size: auto 1000px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  position: static;
+  padding-bottom: 50px;
+}
+
+.jumbotron.recruit {
+  background-image: url(../recruit/images/recruit_top.jpg);
+  background-position: 50% 0%;
+  background-size: auto 1000px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  position: static;
+  padding-bottom: 50px;
+}
+
+.jumbotron.access {
+  background-image: url(../company/images/access_top.jpg);
+  background-position: 50% 0%;
+  background-size: auto 1000px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  position: static;
+  padding-bottom: 50px;
+}
+
+.ggmap {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+ 
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.sitemap_link {
+  color: #767676;
+  font-size: 17px;
+}
+
+.sitemap_link:hover {
+  color: #FC0004;
+}
 
 @media (max-width:320px){
 }
@@ -291,6 +356,14 @@ body > section {
 }
 
 @media (max-width:414px){
+
+.sitemap_link {
+  color: #767676;
+}
+
+.sitemap_link {
+  color: #767676;
+}
 .sm_non {
   display: none;
 }

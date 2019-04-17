@@ -69,13 +69,14 @@
          <!-- <li ><a href="../services.html">企業情報</a></li>-->
           <li class="dropdown"><a href="../company/index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">企業情報<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
+             <li><a href="../company/index.html">会社概要</a></li>
             <li><a href="../company/corporate_philosophy.html">企業理念</a></li>
             <li><a href="../company/history.html">沿革</a></li>
             <li><a href="../company/policy.html">ポリシー</a></li>
             <li class="divider"></li>
             <li><a href="../recruit/index.html">採用について</a></li>
             <li class="divider"></li>
-            <li><a href="../company/accsess.html">アクセス</a></li>
+            <li><a href="../company/access.html">アクセス</a></li>
           </ul>
         </li>
           <li><a href="../buisiness/index.html">当社の事業について</a></li>
