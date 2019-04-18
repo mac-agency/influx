@@ -379,6 +379,13 @@ height: 100%;
 .all_pdding10 {
   padding: 10px;
 }
+
+.footer_list_category {
+  border-bottom: 1px solid #868686;
+  margin-bottom: 5px;
+  font-size: 16px;
+  line-height: 1.5em;
+}
 @media (max-width:320px){
 }
 

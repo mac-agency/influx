@@ -746,10 +746,10 @@ textarea#message {
 ********* Footer ******
 ************************/
 #footer {
-	padding-top: 60px;
-	padding-bottom: 40px;
-	color: #aaa;
-	background: #2e2e2e;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  color: #aaa;
+  background: #2e2e2e;
 }
 #footer a {
 	color: #eee;
@@ -758,9 +758,10 @@ textarea#message {
 	color: #3276b1;
 }
 #footer ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
+  /* [disabled]list-style-type: none; */
+  /* [disabled]list-style-image: none; */
+  padding: 0;
+  margin: 0;
 }
 #footer ul > li {
 	display: inline-block;
