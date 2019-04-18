@@ -328,6 +328,43 @@ height: 100%;
   color: #FC0004;
 }
 
+.jumbotron.social_activity {
+  background-image: url(../social_activity/images/social_top.jpg);
+  background-position: 50% 0%;
+  background-size: auto 1000px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  position: static;
+  padding-bottom: 50px;
+}
+
+.inyou_green {
+  border-left-color: #54FFA5;
+}
+
+.inyou_blue {
+  border-left-color: #0084FD;
+}
+.inyou_brown {
+  border-left-color: #B8860B;
+}
+
+.jumbotron.strong {
+  background-image: url(../strength/images/strong_top.jpg);
+  background-position: 50% 0%;
+  background-size: auto 1000px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  position: static;
+  padding-bottom: 50px;
+}
+
 @media (max-width:320px){
 }
 
