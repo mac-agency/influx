@@ -386,6 +386,10 @@ height: 100%;
   font-size: 16px;
   line-height: 1.5em;
 }
+
+.logo_width {
+  width: 125px;
+}
 @media (max-width:320px){
 }
 
